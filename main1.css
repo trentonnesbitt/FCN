@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------------------------BEGINGING-------------------*/
+.body {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 960px;
+
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 3px solid #444;
+	color: #4FB1BC;
+	font-size: 52px;
+	font-family: 'Poiret One';
+	margin-right: 85px;
+	margin-left: 85px;
+}
+
+.opener {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	padding-left: 190px;
+	padding-right: 190px;
+	font-size: 16px;
+	color: #7F7F7F;
+}
+
+header a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #4FB1BC;
+}
+
+header a:hover {
+	color: #444;
+}
+/*------------------------VALUES/NAVIGATION-------------------*/
+ul {
+	display: inline-flex;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+li a{
+	text-decoration: none;
+	text-align: center;
+	padding: 12px 50px 12px 50px;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+li a:hover{
+	background-color: #CCC;
+	color: #026ca2;
+}
+
+.val a {
+	border-right: 2px solid #ad4fbc;;
+}
+
+.val a:hover {
+	background-color: #CCC;
+	color: #026ca2;
+}
+
+/*------------------------Middle------------------*/
+
+.middle {
+	display: inline-block;
+	max-width: 950px;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	padding-top: 10px;
+	border-bottom: 2px solid #444;
+	color: #4FB1BC;
+	font-size: 32px;
+	font-family: tahoma;
+}
+
+h4 {
+	text-align: left;
+	padding-bottom: 10px;
+	padding-top: 23px;
+	padding-left: 27px;
+	border-bottom: 1px solid #444;
+	color: #ad4fbc;
+	font-size: 22px;
+	font-family: tahoma;
+}
+
+
+.middle p {
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-size: 16px;
+	color: #7F7F7F;
+	text-indent: 27px;
+}
+
+
+@media (max-width:500px){
+  ul.nav li{
+    display:block;
+    width:100%;
+    left:0px;
+  }
+  #spacer{
+    height:140px;
+  }
+}
+
+/*------------------------TEXT STUFF------------------*/
+
